@@ -107,6 +107,6 @@ Este projeto é distribuído sob a licença [MIT License](https://github.com/SEU
 ## Contato
 
 *   Felipe de Oliveira Gomes
-*   [felipedeoliveiragomes01@gmail.com]
+*   felipedeoliveiragomes01@gmail.com
 
 ---
