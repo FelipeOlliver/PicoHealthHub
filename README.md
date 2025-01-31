@@ -38,14 +38,14 @@ Pico-Health-Hub/
 ├── docs/ # Documentação do projeto  
 │ ├── academic_document.pdf # Documento acadêmico detalhado
 │ └── ... # Outros documentos  
-├── hardware/ # Arquivos do projeto de hardware  
+├── kiCAD/ # Arquivos do projeto de hardware  
 │ ├── schematics/ # Arquivos de esquemáticos (Kicad)  
 │ │ └── PicoHealthHub.kicad_sch  
 │ ├── layouts/ # Arquivos de layout da PCB (Kicad)  
 │ │ └── ...  
 │ ├── bom.csv # Lista de materiais (BOM)  
 │ └── ...  
-├── firmware/ # Código fonte do firmware  
+├── code/ # Código fonte do firmware  
 │ ├── src/ # Código fonte em C/C++ (SDK Raspberry Pi Pico)  
 │ │ └── main.c  
 │ │ └── ...  
@@ -54,9 +54,6 @@ Pico-Health-Hub/
 │ ├── include/ # Arquivos de cabeçalho  
 │ │ └── ...  
 │ ├── CMakeLists.txt # Arquivo CMake para compilação  
-│ └── ...  
-├── images/ # Imagens para o README e documentação  
-│ ├── pico_health_hub.png # Imagem principal do projeto  
 │ └── ...  
 ├── LICENSE # Licença do projeto  
 └── README.md # Este arquivo README  
