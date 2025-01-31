@@ -1,7 +1,7 @@
 # PicoHealthHub
 Sistema Embarcado portátil para monitoramento de sinais vitais, denominado "Pico Health Hub", utilizando a Raspberry Pi Pico W.
 [![GitHub Issues](https://img.shields.io/github/issues/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/pulls/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/pulls)
+<!--[![GitHub Pull Requests](https://img.shields.io/github/pulls/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/pulls)-->
 [![GitHub License](https://img.shields.io/github/license/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/blob/main/LICENSE)
 
 ![pico_health_hub_circuito-1](https://github.com/user-attachments/assets/6adb1ea7-377a-4b33-a67c-158e00e31e46)
@@ -34,32 +34,32 @@ O **Pico Health Hub** é um sistema embarcado portátil de baixo custo, desenvol
     *   Utilização de componentes de baixo custo para democratização do acesso.
 
 ## Estrutura do Repositório
-Pico-Health-Hub/
-├── docs/ # Documentação do projeto
+Pico-Health-Hub/  
+├── docs/ # Documentação do projeto  
 │ ├── academic_document.pdf # Documento acadêmico detalhado
-│ └── ... # Outros documentos
-├── hardware/ # Arquivos do projeto de hardware
-│ ├── schematics/ # Arquivos de esquemáticos (Kicad)
-│ │ └── PicoHealthHub.kicad_sch
-│ ├── layouts/ # Arquivos de layout da PCB (Kicad)
-│ │ └── ...
-│ ├── bom.csv # Lista de materiais (BOM)
-│ └── ...
-├── firmware/ # Código fonte do firmware
-│ ├── src/ # Código fonte em C/C++ (SDK Raspberry Pi Pico)
-│ │ └── main.c
-│ │ └── ...
-│ ├── lib/ # Bibliotecas de código
-│ │ └── ...
-│ ├── include/ # Arquivos de cabeçalho
-│ │ └── ...
-│ ├── CMakeLists.txt # Arquivo CMake para compilação
-│ └── ...
-├── images/ # Imagens para o README e documentação
-│ ├── pico_health_hub.png # Imagem principal do projeto
-│ └── ...
-├── LICENSE # Licença do projeto
-└── README.md # Este arquivo README
+│ └── ... # Outros documentos  
+├── hardware/ # Arquivos do projeto de hardware  
+│ ├── schematics/ # Arquivos de esquemáticos (Kicad)  
+│ │ └── PicoHealthHub.kicad_sch  
+│ ├── layouts/ # Arquivos de layout da PCB (Kicad)  
+│ │ └── ...  
+│ ├── bom.csv # Lista de materiais (BOM)  
+│ └── ...  
+├── firmware/ # Código fonte do firmware  
+│ ├── src/ # Código fonte em C/C++ (SDK Raspberry Pi Pico)  
+│ │ └── main.c  
+│ │ └── ...  
+│ ├── lib/ # Bibliotecas de código  
+│ │ └── ...  
+│ ├── include/ # Arquivos de cabeçalho  
+│ │ └── ...  
+│ ├── CMakeLists.txt # Arquivo CMake para compilação  
+│ └── ...  
+├── images/ # Imagens para o README e documentação  
+│ ├── pico_health_hub.png # Imagem principal do projeto  
+│ └── ...  
+├── LICENSE # Licença do projeto  
+└── README.md # Este arquivo README  
 
 ## Como Executar o Projeto
 
@@ -75,7 +75,7 @@ Pico-Health-Hub/
 1.  Clone este repositório:
 
     ```bash
-    git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+    git clone https://github.com/FelipeOlliver/PicoHealthHub.git
     ```
 2.  Configure o ambiente de desenvolvimento do Raspberry Pi Pico SDK.
 3.  Compile o código do firmware:
