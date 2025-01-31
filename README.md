@@ -35,7 +35,7 @@ O **Pico Health Hub** é um sistema embarcado portátil de baixo custo, desenvol
 
 ## Estrutura do Repositório
 Pico-Health-Hub/  
-├── docs/ # Documentação do projeto  
+├── Docs/ # Documentação do projeto  
 │ ├── academic_document.pdf # Documento acadêmico detalhado
 │ └── ... # Outros documentos  
 ├── kiCAD/ # Arquivos do projeto de hardware  
@@ -45,7 +45,7 @@ Pico-Health-Hub/
 │ │ └── ...  
 │ ├── bom.csv # Lista de materiais (BOM)  
 │ └── ...  
-├── code/ # Código fonte do firmware  
+├── Code/ # Código fonte do firmware  
 │ ├── src/ # Código fonte em C/C++ (SDK Raspberry Pi Pico)  
 │ │ └── main.c  
 │ │ └── ...  
@@ -99,7 +99,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para rela
 
 ## Licença
 
-Este projeto é distribuído sob a licença [MIT License](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO/blob/main/LICENSE). Consulte o arquivo `LICENSE` para mais detalhes.
+Este projeto é distribuído sob a licença [MIT License](https://github.com/FelipeOlliver/PicoHealthHub/blob/main/LICENSE). Consulte o arquivo `LICENSE` para mais detalhes.
 
 ## Contato
 
