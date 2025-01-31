@@ -1,13 +1,10 @@
 # PicoHealthHub
 Sistema Embarcado portátil para monitoramento de sinais vitais, denominado "Pico Health Hub", utilizando a Raspberry Pi Pico W.
-
 [![GitHub Issues](https://img.shields.io/github/issues/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/pulls/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/pulls)
 [![GitHub License](https://img.shields.io/github/license/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/blob/main/LICENSE)
 
-<p align="center">
- <img src = ![pico_health_hub_circuito-1](https://github.com/user-attachments/assets/3a3e1d5d-bdb3-43cc-b81f-520606365743) alt="Pico Health Hub" width="300">
-</p>
+![pico_health_hub_circuito-1](https://github.com/user-attachments/assets/6adb1ea7-377a-4b33-a67c-158e00e31e46)
 
 
 ## Descrição
@@ -41,14 +38,14 @@ Pico-Health-Hub/
 ├── docs/ # Documentação do projeto
 │ ├── academic_document.pdf # Documento acadêmico detalhado
 │ └── ... # Outros documentos
-├── kicad/ # Arquivos do projeto de hardware
+├── hardware/ # Arquivos do projeto de hardware
 │ ├── schematics/ # Arquivos de esquemáticos (Kicad)
 │ │ └── PicoHealthHub.kicad_sch
 │ ├── layouts/ # Arquivos de layout da PCB (Kicad)
 │ │ └── ...
 │ ├── bom.csv # Lista de materiais (BOM)
 │ └── ...
-├── code/ # Código fonte do firmware
+├── firmware/ # Código fonte do firmware
 │ ├── src/ # Código fonte em C/C++ (SDK Raspberry Pi Pico)
 │ │ └── main.c
 │ │ └── ...
@@ -110,6 +107,6 @@ Este projeto é distribuído sob a licença [MIT License](https://github.com/SEU
 ## Contato
 
 *   Felipe de Oliveira Gomes
-*   [Seu email]
+*   [felipedeoliveiragomes01@gmail.com]
 
 ---
