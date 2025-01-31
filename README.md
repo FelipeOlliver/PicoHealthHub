@@ -1,11 +1,12 @@
 # PicoHealthHub
 Sistema Embarcado portátil para monitoramento de sinais vitais, denominado "Pico Health Hub", utilizando a Raspberry Pi Pico W.
+
 [![GitHub Issues](https://img.shields.io/github/issues/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/pulls/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/pulls)
 [![GitHub License](https://img.shields.io/github/license/FelipeOlliver/PicoHealthHub?style=flat-square)](https://github.com/FelipeOlliver/PicoHealthHub/blob/main/LICENSE)
 
 <p align="center">
- <img src="![pico_health_hub_circuito-1](https://github.com/user-attachments/assets/185d33f4-c892-460d-9769-fabcc82c560a)" alt="Pico Health Hub" width="300">
+ <img src = ![pico_health_hub_circuito-1](https://github.com/user-attachments/assets/3a3e1d5d-bdb3-43cc-b81f-520606365743) alt="Pico Health Hub" width="300">
 </p>
 
 
@@ -36,8 +37,6 @@ O **Pico Health Hub** é um sistema embarcado portátil de baixo custo, desenvol
     *   Utilização de componentes de baixo custo para democratização do acesso.
 
 ## Estrutura do Repositório
-Use code with caution.
-Markdown
 Pico-Health-Hub/
 ├── docs/ # Documentação do projeto
 │ ├── academic_document.pdf # Documento acadêmico detalhado
