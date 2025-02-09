@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pico Health Hub - Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        p {
+            color: #777;
+            line-height: 1.6;
+        }
+
+        .data-item {
+            margin-bottom: 10px;
+        }
+
+        .data-label {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pico Health Hub</h1>
+
+        <h2>Dados do Usuário</h2>
+        <div class="data-item">
+            <span class="data-label">ID do Usuário:</span> <span id="userId">000001</span>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Nome:</span> <span id="userName">Felipe Oliveira</span>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Email:</span> <span id="userEmail">felipedeoliveiragomes01@gmail.com</span>
+        </div>
+
+        <h2>Dados da Medição</h2>
+        <div class="data-item">
+            <span class="data-label">Data/Hora da Medição:</span> <span id="timestamp">2025-02-03 10:30:00</span>
+        </div>
+        <div class="data-item">
+            <span class="data-label">Temperatura:</span> <span id="temperature"><!--#temperature--></span> °C
+        </div>
+        <div class="data-item">
+            <span class="data-label">Pressão Sistólica:</span> <span id="systolicPressure"><!--#systolicPressure--></span> mmHg
+        </div>
+        <div class="data-item">
+            <span class="data-label">Pressão Diastólica:</span> <span id="diastolicPressure"><!--#diastolicPressure--></span> mmHg
+        </div>
+        <div class="data-item">
+            <span class="data-label">SpO2:</span> <span id="spo2Level"><!--#spo2Level--></span> %
+        </div>
+        <div class="data-item">
+            <span class="data-label">Frequência Cardíaca:</span> <span id="heartRate"><!--#heartRate--></span> BPM
+        </div>
+        <div class="data-item">
+            <span class="data-label">Estado do Sistema:</span> <span id="systemState">Em Repouso</span>
+        </div>
+
+        <h2>Ações</h2>
+        <button onclick="alert('Função não implementada.')">Exportar Dados</button>
+        <button onclick="alert('Função não implementada.')">Atualizar Dados</button>  
+
+
+        <p>.</p>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
